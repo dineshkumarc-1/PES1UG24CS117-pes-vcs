@@ -214,3 +214,4 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
 }// commit_create: builds tree, links parent, updates HEAD
 // head_update: atomically moves branch pointer to new commit
 // commit_parse: parses commit object text format
+// commit_walk: traverses linked list of commits via parent pointers
