@@ -169,3 +169,4 @@ int index_add(Index *index, const char *path) {
 }
 // index_load: parses text-format index file
 // index_save: atomic write using temp file and rename
+// index_add: stages file by writing blob and updating index
