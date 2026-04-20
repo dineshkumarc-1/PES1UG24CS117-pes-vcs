@@ -168,3 +168,4 @@ int index_add(Index *index, const char *path) {
     return index_save(index);
 }
 // index_load: parses text-format index file
+// index_save: atomic write using temp file and rename
