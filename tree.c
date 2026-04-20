@@ -213,3 +213,4 @@ int tree_from_index(ObjectID *id_out) {
 }// tree_from_index: recursively builds tree from staged files
 // tree_serialize: sorts entries for deterministic output
 // tree_parse: deserializes binary tree format back to struct
+// write_tree_level: recursively writes subtrees to object store
