@@ -1,0 +1,7 @@
+*.o
+pes
+pes_debug
+test_objects
+test_tree
+debug*
+.pes/
