@@ -212,3 +212,4 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
     if (commit_id_out) *commit_id_out = commit_id;
     return 0;
 }// commit_create: builds tree, links parent, updates HEAD
+// head_update: atomically moves branch pointer to new commit
