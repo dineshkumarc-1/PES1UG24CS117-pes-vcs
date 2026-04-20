@@ -167,3 +167,4 @@ int index_add(Index *index, const char *path) {
     }
     return index_save(index);
 }
+// index_load: parses text-format index file
