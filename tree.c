@@ -212,3 +212,4 @@ int tree_from_index(ObjectID *id_out) {
     return write_tree_level(index.entries, index.count, id_out);
 }// tree_from_index: recursively builds tree from staged files
 // tree_serialize: sorts entries for deterministic output
+// tree_parse: deserializes binary tree format back to struct
