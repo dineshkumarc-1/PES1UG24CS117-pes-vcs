@@ -210,4 +210,4 @@ int tree_from_index(ObjectID *id_out) {
         return rc;
     }
     return write_tree_level(index.entries, index.count, id_out);
-}
+}// tree_from_index: recursively builds tree from staged files
